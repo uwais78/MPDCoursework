@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/roadworks_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="labstuff.gcu.me.org.mdassesment.IncidentsClass">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/HeaderText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Current Incidents"
+        android:textSize="22dp" />
+
+    <ListView
+        android:id="@+id/incidentsListView"
+        android:layout_width="364dp"
+        android:layout_height="434dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="37dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="69dp"></ListView>
+</RelativeLayout>
